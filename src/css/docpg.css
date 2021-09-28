@@ -1,0 +1,101 @@
+html{
+    background-color: black;
+}
+a{
+    cursor: pointer;
+}
+
+#speraxlogo{
+    height: 40px;
+    width: 100px;
+}
+
+.indivdoc{
+    display: flex;
+    width: 100%;
+    height: 100vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.indivdoc > *{
+    margin-top: 8%;
+}
+
+#maintitle{
+    margin-top: 8%;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#social_links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+    width:60%
+}
+
+.insocial_links{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    width: 250px;
+    background-color: rgba(245, 245, 245,0.4);
+    border-radius: 10% 10% 10% 10%;
+}
+
+
+.insocial_links>h3{
+    color:white;
+    font-size: 20px;
+}
+
+
+.docbox{
+    height: 100vh;
+    width:100%;
+    background-color:blue
+
+}
+
+@media screen and (max-width:768px) {
+    #maintitle{
+        margin-top: 25%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #maintitle{
+        margin-top: 35%;
+    }
+}
+
+@media screen and (max-width:460px) {
+    #maintitle{
+        font-size: 40px;
+        margin-top: 45%;
+    }
+}
+
+@media screen and (max-width:410px) {
+    #maintitle{
+        font-size: 40px;
+        margin-top: 55%;
+    }
+}
+
+@media screen and (max-width:330px) {
+    #maintitle{
+        font-size: 25px;
+        margin-top: 70%;
+    }
+}
+
