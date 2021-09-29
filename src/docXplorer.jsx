@@ -16,8 +16,8 @@ var bgcount = 0;
 var prevID_cont;
 var prevQlink_cont;
 var Docxplorer = (props) => {
+    window.scrollTo(0,0)
     prevID_cont = props.prevID;
-
     var loadFirstDoc = () => {
         prevQlink_cont = "quicklinks_" + prevID_cont.substr(8, prevID_cont.length);
         console.log(prevID_cont + prevQlink_cont)

@@ -19,11 +19,19 @@ for now only 3 dummy links i have made for demonstration(for first 2 big tiles a
 
 ## A few Demo images are given below
 
-
+### front page dark mode ->
 ![1st image](https://github.com/rupak2001/SPEARX_NAGV_UI/blob/main/readme_images/1.png)
+
+### front page light mode ->
 ![2nd image](https://github.com/rupak2001/SPEARX_NAGV_UI/blob/main/readme_images/2.png)
+
+### doc page dark mode ->
 ![3rd image](https://github.com/rupak2001/SPEARX_NAGV_UI/blob/main/readme_images/3.png)
+
+### doc page light mode ->
 ![4th image](https://github.com/rupak2001/SPEARX_NAGV_UI/blob/main/readme_images/4.png)
+
+### responsive mode->
 ![5th image](https://github.com/rupak2001/SPEARX_NAGV_UI/blob/main/readme_images/5.png)
 ![6th image](https://github.com/rupak2001/SPEARX_NAGV_UI/blob/main/readme_images/6.png)
 
