@@ -3,7 +3,7 @@
 The docs page ui is created with React js along With Tailblocks and Tailwind customizations
 
 ### Demo deployment link
-[name](limk)
+[DEMO LINK](https://rupak2001.github.io/SPERAX_NAGV_UI/)
 
 
 ## FEATURES:
