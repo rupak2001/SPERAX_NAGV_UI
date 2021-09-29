@@ -207,11 +207,11 @@ var Docpg = (props) => {
 
                     <div class="p-2 sm:w-1/2 w-full transition duration-500 transform hover:scale-105" style = {{cursor:"pointer"}}>
                         <div class={change_bg_ini.div_lowerTiles}>
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class={change_bg_ini.svg_lowerTiles} viewBox="0 0 24 24">
+                            <svg onClick = {props.pageChange} id = "content_3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class={change_bg_ini.svg_lowerTiles} viewBox="0 0 24 24">
                                 <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                                 <path d="M22 4L12 14.01l-3-3"></path>
                             </svg>
-                            <span class={change_bg_ini.span_lowerTiles}>Authentic Cliche Forage</span>
+                            <span onClick = {props.pageChange} id = "content_3" class={change_bg_ini.span_lowerTiles}>Authentic Cliche Forage</span>
                         </div>
                     </div>
 
