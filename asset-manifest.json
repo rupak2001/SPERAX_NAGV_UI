@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/SPERAX_NAGV_UI/static/css/main.8470fab8.chunk.css",
-    "main.js": "/SPERAX_NAGV_UI/static/js/main.6b8dd064.chunk.js",
-    "main.js.map": "/SPERAX_NAGV_UI/static/js/main.6b8dd064.chunk.js.map",
+    "main.css": "/SPERAX_NAGV_UI/static/css/main.b192e904.chunk.css",
+    "main.js": "/SPERAX_NAGV_UI/static/js/main.9c7ba634.chunk.js",
+    "main.js.map": "/SPERAX_NAGV_UI/static/js/main.9c7ba634.chunk.js.map",
     "runtime-main.js": "/SPERAX_NAGV_UI/static/js/runtime-main.4695449e.js",
     "runtime-main.js.map": "/SPERAX_NAGV_UI/static/js/runtime-main.4695449e.js.map",
     "static/js/2.18473b4c.chunk.js": "/SPERAX_NAGV_UI/static/js/2.18473b4c.chunk.js",
     "static/js/2.18473b4c.chunk.js.map": "/SPERAX_NAGV_UI/static/js/2.18473b4c.chunk.js.map",
     "index.html": "/SPERAX_NAGV_UI/index.html",
-    "static/css/main.8470fab8.chunk.css.map": "/SPERAX_NAGV_UI/static/css/main.8470fab8.chunk.css.map",
+    "static/css/main.b192e904.chunk.css.map": "/SPERAX_NAGV_UI/static/css/main.b192e904.chunk.css.map",
     "static/js/2.18473b4c.chunk.js.LICENSE.txt": "/SPERAX_NAGV_UI/static/js/2.18473b4c.chunk.js.LICENSE.txt",
     "static/media/darkback.81c108db.jpg": "/SPERAX_NAGV_UI/static/media/darkback.81c108db.jpg",
     "static/media/lightback.0c016d7d.jpg": "/SPERAX_NAGV_UI/static/media/lightback.0c016d7d.jpg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.4695449e.js",
     "static/js/2.18473b4c.chunk.js",
-    "static/css/main.8470fab8.chunk.css",
-    "static/js/main.6b8dd064.chunk.js"
+    "static/css/main.b192e904.chunk.css",
+    "static/js/main.9c7ba634.chunk.js"
   ]
 }
