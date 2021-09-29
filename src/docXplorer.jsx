@@ -38,7 +38,7 @@ var Docxplorer = (props) => {
         change_snippetcolor: atomOneDark,
         change_bg_color: "rgb(5, 1, 15)",
         change_nagv_link_color: "rgb(211, 220, 228)",
-        change_headertxt: "title-font font-medium text-white tracking-widest underline text-medium mb-3",
+        change_headertxt: "title-font font-medium text-white tracking-widest underline text-medium mb-3"
     })
 
 
@@ -162,7 +162,7 @@ var Docxplorer = (props) => {
 
     return (
         <div className="docpagediv" style={{ backgroundColor: change_bg_ini.change_bg_color, height: "100%", width: "100%" }}>
-            <header className={change_bg_ini.change_boxcolor} style={{ position: "fixed", zIndex: 10, width: "100%" }}>
+            <header id = "header_box" className={change_bg_ini.change_boxcolor}>
                 <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <a href="https://sperax.io/"><img id="speraxlogo" src={change_bg_ini.change_logo} style={{ cursor: "pointer" }} /></a>
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
