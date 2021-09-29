@@ -20,12 +20,12 @@ for now only 3 dummy links i have made for demonstration(for first 2 big tiles a
 ## A few Demo images are given below
 
 
-![1st image](https://github.com/rupak2001/SPERAX_NAGV_UI/blob/main/readme_images/1.png?raw=true)
-![1st image](https://github.com/rupak2001/SPERAX_NAGV_UI/blob/main/readme_images/2.png?raw=true)
-![1st image](https://github.com/rupak2001/SPERAX_NAGV_UI/blob/main/readme_images/3.png?raw=true)
-![1st image](https://github.com/rupak2001/SPERAX_NAGV_UI/blob/main/readme_images/4.png?raw=true)
-![1st image](https://github.com/rupak2001/SPERAX_NAGV_UI/blob/main/readme_images/5.png?raw=true)
-![1st image](https://github.com/rupak2001/SPERAX_NAGV_UI/blob/main/readme_images/6.png?raw=true)
+![1st image](https://github.com/rupak2001/SPEARX_NAGV_UI/blob/main/readme_images/1.png)
+![2nd image](https://github.com/rupak2001/SPEARX_NAGV_UI/blob/main/readme_images/2.png)
+![3rd image](https://github.com/rupak2001/SPEARX_NAGV_UI/blob/main/readme_images/3.png)
+![4th image](https://github.com/rupak2001/SPEARX_NAGV_UI/blob/main/readme_images/4.png)
+![5th image](https://github.com/rupak2001/SPEARX_NAGV_UI/blob/main/readme_images/5.png)
+![6th image](https://github.com/rupak2001/SPEARX_NAGV_UI/blob/main/readme_images/6.png)
 
 
 
