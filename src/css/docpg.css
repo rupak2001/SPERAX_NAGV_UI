@@ -66,11 +66,15 @@ a{
 
 }
 
+
+
 @media screen and (max-width:768px) {
     #maintitle{
         margin-top: 25%;
     }
 }
+
+
 
 @media screen and (max-width:600px) {
     #maintitle{
@@ -81,7 +85,7 @@ a{
 @media screen and (max-width:460px) {
     #maintitle{
         font-size: 40px;
-        margin-top: 45%;
+        margin-top: 50%;
     }
 }
 
@@ -99,3 +103,9 @@ a{
     }
 }
 
+@media screen and (max-width:300px) {
+    #maintitle{
+        font-size: 25px;
+        margin-top: 80%;
+    }
+}

@@ -16,11 +16,12 @@ var bgcount = 0;
 var prevID_cont;
 var prevQlink_cont;
 var Docxplorer = (props) => {
-    window.scrollTo(0,0)
+    window.scrollTo(0, 0)
+
+    
     prevID_cont = props.prevID;
     var loadFirstDoc = () => {
         prevQlink_cont = "quicklinks_" + prevID_cont.substr(8, prevID_cont.length);
-        console.log(prevID_cont + prevQlink_cont)
         document.getElementById(prevID_cont).style.display = "flex"
         document.getElementById(prevQlink_cont).style.display = "flex"
     }
@@ -162,19 +163,20 @@ var Docxplorer = (props) => {
 
     return (
         <div className="docpagediv" style={{ backgroundColor: change_bg_ini.change_bg_color, height: "100%", width: "100%" }}>
-            <header id = "header_box" className={change_bg_ini.change_boxcolor}>
+            <header id="header_box" className={change_bg_ini.change_boxcolor}>
                 <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <a href="https://sperax.io/"><img id="speraxlogo" src={change_bg_ini.change_logo} style={{ cursor: "pointer" }} /></a>
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
                         <a href="https://sperax.io/USDs" className="mr-5 hover:text-white">USD'S</a>
-                        <a href="https://sperax.io/team" className="mr-5 hover:text-white">About Us</a>
                         <a href="https://sperax.io/#Resources" className="mr-5 hover:text-white">Resources</a>
                         <a href="https://sperax.io/put your endpoint here" className="mr-5 hover:text-white">Docs</a>
                         <a href="https://sperax.io/news" className="mr-5 hover:text-white">News</a>
-                        <a href="https://forum.sperax.io/" className="mr-5 hover:text-white">Forum</a>
+                        <a id = "forum_link" href="https://forum.sperax.io/" className="mr-5 hover:text-white">Forum</a>
                     </nav>
-                    <Switch color="warning" onClick={() => { change_bg() }} />
-                    {change_bg_ini.change_icon}
+                    <div id="themeSwitch" style = {{display:"block"}}>
+                        <Switch color="warning" onClick={() => { change_bg() }} />
+                        {change_bg_ini.change_icon}
+                    </div>
                 </div>
             </header>
 
@@ -488,8 +490,6 @@ var Docxplorer = (props) => {
                 </div>
             </div>
 
-
-
             <footer class={change_bg_ini.change_boxcolor}>
                 <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
@@ -601,6 +601,7 @@ var Docxplorer = (props) => {
                 </div>
             </footer>
         </div>
+
     )
 }
 
