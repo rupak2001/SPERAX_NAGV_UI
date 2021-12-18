@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react"
 import "./css/docXplorer.css"
-import "./css/tailwind.css"
 import speraxlogo from './images/speraxlogo.svg'
 import speraxlogo_black from './images/speraxlogo_black.svg'
 import Switch from '@mui/material/Switch';
